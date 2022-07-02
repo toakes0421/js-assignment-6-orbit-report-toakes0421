@@ -15,6 +15,8 @@ export class OrbitCountsComponent implements OnInit {
   ngOnInit() {
   }
 
+  types = ['Space Debris', 'Communication', 'Probe', 'Positioning', 'Space Station', 'Telescope']
+
   countByType(type: string): number {
 	let count = 0;
 	if (this.satellites) {

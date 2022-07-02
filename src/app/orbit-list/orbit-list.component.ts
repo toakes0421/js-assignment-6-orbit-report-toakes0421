@@ -26,5 +26,12 @@ export class OrbitListComponent implements OnInit {
 			return 0;
 		});
 	}
+	
+	isOdd(num: number): boolean {
+		if (num % 2 !== 0) {
+			return true;
+		};
+		return false;
+	}
 
 }
